@@ -18,7 +18,7 @@ const AddBooks = () => {
             imageURL: imageURL.current.value
         }
    if(data.title && data.author && data.imageURL){
-    axios.post("https://bookstore-i3rs.onrender.com/add-book",data).then((res)=>{
+    axios.post("https://bookstore-vtbi.onrender.com/add-book",data).then((res)=>{
         alert(res.data.message)
     Navigate('/book')
 

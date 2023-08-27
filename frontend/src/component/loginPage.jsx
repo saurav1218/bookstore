@@ -16,7 +16,7 @@ const LoginPage = () => {
         email: email.current.value,
         password: password.current.value
       }
-      axios.post("https://bookstore-i3rs.onrender.com/login",data).then((res)=>{
+      axios.post("https://bookstore-vtbi.onrender.com/login",data).then((res)=>{
         alert(res.data.message)
         if(res.data.status == 200){
             Navigate('/home')
