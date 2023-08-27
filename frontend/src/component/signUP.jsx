@@ -53,7 +53,7 @@ let waiting=()=>{
   }
     return ( 
         <div className="mainSignup" >
-                  <span ref={ref1} style={{display:"none"}} id="login_wait">Please Wait SomeTime!! fetching data will take sometime</span>
+                  <span ref={ref1} style={{display:"none"}} id="login_wait">Please Wait !! fetching data will take sometime</span>
         <div className="nav1_signup">
             <h1>Stories</h1>
             </div>
