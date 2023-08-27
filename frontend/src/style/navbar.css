@@ -1,0 +1,20 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav1{
+    margin-left: 60px;
+}
+.nav2{
+    display: flex;
+    align-items: center;
+
+    margin-right: 40px ;
+}
+.nav2 a{
+    margin-right: 40px ;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}

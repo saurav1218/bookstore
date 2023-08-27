@@ -1,0 +1,115 @@
+ .mainSignup{
+    background-image: url(https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010_640.jpg);
+    background-size:cover ;
+    position: fixed; 
+    z-index: 1;
+    width: 1350px;
+    height: 700px;
+    top: 0px;
+}
+.nav1_signup{
+    margin-left: 60px;
+    color: white;
+}
+.signupimg img{
+    height: 400px;
+}
+
+.signup{
+    display: flex;
+    transform: translateY(40px);
+    align-items: center;
+    margin-left: 150px; 
+}
+.data{
+margin-top: 50px;
+margin-left: 30px;
+transform: translateY(-30px);
+}
+.data input{
+    height: 25px;
+}
+.signup_n{
+    font-weight: bold;
+}
+.signup_n>:nth-child(1){
+    display: block;
+    font-size: 30px;
+}
+.signup_n input{
+    width: 250px;
+    outline: none;
+    font-size: 20px;
+}
+.signup_e{
+    font-weight: bold;
+}
+.signup_e>:nth-child(1){
+    display: block;
+    font-size: 30px;
+
+}
+.signup_e input{
+    width: 250px;
+    outline: none;
+    font-size: 20px;
+}
+.signup_pass{
+    font-weight: bold;
+}
+.signup_pass>:nth-child(1){
+    display: block;
+    font-size: 30px;
+}
+.signup_pass>:nth-child(3){
+    display: block;
+    transform: translateY(10px);
+    font-size: 30px;
+}
+.signup_pass>:nth-child(4){
+    transform: translateY(10px);
+}
+.signup_pass input{
+    width: 250px;
+    font-size: 20px;
+    outline: none;
+}
+#signup_button{
+    margin-top: 20px;
+    width: 100px;
+    font-size: 22px;
+}
+.button{
+    transform: translateY(15px);
+}
+.button>:nth-child(1):hover{
+    font-size: 40px;
+    font-weight: bold;
+    background-color: black;
+    outline: none;
+    color: white;
+}
+.button>:nth-child(2){
+    font-size: 35px;
+    font-weight: bold;
+}
+.button>:nth-child(3){
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+}
+.button>:nth-child(3):hover{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+/*
+
+.takingData button{
+    transform: translateY(-30px);
+    height: 30px;
+    width: 90px;
+    margin-left: 20px
+
+}
+ */

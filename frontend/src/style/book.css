@@ -1,0 +1,44 @@
+.search>:nth-child(1){
+    width: 300px;
+    height: 30px;
+    border: none; 
+    outline: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+.search{
+    border: 1px solid;
+    margin-left: 400px;
+    border-radius: 10px;
+    width: 350px;
+    height: 40px ;
+    display: flex;
+    align-items: center;
+}
+.showing_books_data{
+    display: inline-block;
+    margin: 25px 40px;
+}
+.showing_books_data>:nth-child(1){
+    width: 250px;
+    height: 300px;
+    margin: 15px 0px;
+    display: block;
+}
+.showing_books_data>:nth-child(2){
+    display: block;
+    font-size: 25px;
+}
+.showing_books_data>:nth-child(3){
+    display: block;
+    font-size: 30px;
+    margin-top: 10px;
+    border: none;
+}
+.showing_books_data>:nth-child(3):hover{
+    font-size: 40px;
+}
+.showing_books_data_nextPart{
+    width: 250px;
+}
