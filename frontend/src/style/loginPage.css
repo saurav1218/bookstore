@@ -7,6 +7,15 @@
     height: 700px;
     top: 0px;
 }
+#login_wait{
+    color: yellowgreen;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 20px;
+    position: fixed;
+    left: 250px;
+}
 .nav1_login{
     margin-left: 60px;
     color: white;

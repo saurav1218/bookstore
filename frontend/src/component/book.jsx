@@ -34,7 +34,9 @@ mystery
             filterItems.map((x)=>{
                 return(
                     <div className="showing_books_data">
+                     
                         <img src={x.imageURL} alt="" />
+            
 
                         <div className="showing_books_data_nextPart">
                         <span>{x.title}</span> <br />

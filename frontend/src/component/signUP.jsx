@@ -15,6 +15,9 @@ let password = useRef("")
 let confirmPassword = useRef("")
 let navigate = useNavigate()
 
+let ref1=useRef("")
+
+
 
 let signUp=(e)=>{
 
@@ -42,9 +45,15 @@ let signUp=(e)=>{
    }
 }
 
-
+let waiting=()=>{
+    ref1.current.style.display="flow-root"
+    setTimeout(()=>{
+      ref1.current.style.display="none"
+    },5000)
+  }
     return ( 
-        <div className="mainSignup">
+        <div className="mainSignup" >
+                  <span ref={ref1} style={{display:"none"}} id="login_wait">Please Wait SomeTime!! fetching data will take sometime</span>
         <div className="nav1_signup">
             <h1>Stories</h1>
             </div>
@@ -76,7 +85,7 @@ let signUp=(e)=>{
                 </div>
           
           <div className="button">
-                <button id="signup_button">S<span style={{color:"red"}}>i</span>gn Up</button>
+                <button id="signup_button" onClick={waiting}>S<span style={{color:"red"}}>i</span>gn Up</button>
                 <span>/</span><Link to={'/'}>S<span style={{color:'red'}}>i</span>gn I<span style={{color:'red'}}>n</span></Link>
     
                 </div>

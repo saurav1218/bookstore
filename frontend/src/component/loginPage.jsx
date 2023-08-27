@@ -9,6 +9,8 @@ const LoginPage = () => {
     let email = useRef("")
     let password = useRef("")
 
+    let ref1=useRef("")
+
 
     let signIn=(x)=>{
         x.preventDefault()
@@ -23,9 +25,19 @@ const LoginPage = () => {
         }
       })
     }
+console.log(ref1.current);
+
+let waiting=()=>{
+  ref1.current.style.display="flow-root"
+  setTimeout(()=>{
+    ref1.current.style.display="none"
+  },3000)
+}
+   
 
     return ( 
-      <div className="main">  
+      <div className="main" onClick={waiting} >  
+      <span ref={ref1} style={{display:"none"}} id="login_wait">Please Wait SomeTime!! fetching data will take sometime</span>
         <div className="nav1_login">
             <h1>Stories</h1>
             </div>
@@ -36,14 +48,14 @@ const LoginPage = () => {
 
             <div className="user">
             <span>U<span style={{color:'red'}}>s</span>ername</span>
-            <input type="email" ref={email} placeholder="Enter Your Email"/>
+            <input type="email" ref={email} placeholder="Enter Your Email"  />
             </div>
             <div className="pass">
             <span>P<span style={{color:'red'}}>a</span>ssword</span>
-            <input type="password" ref={password}  placeholder="Enter Your Password"/> <br />
+            <input type="password" ref={password}  placeholder="Enter Your Password" /> <br />
             </div>
             <div className="click">
-            <button id="loginButton">L<span style={{color:'red'}}>o</span>gin</button>
+            <button id="loginButton" >L<span style={{color:'red'}}  >o</span>gin</button>
          <span>/</span>  <Link to={'/signup'}>S<span style={{color:'red'}}>i</span>gn Up</Link>
             </div>
            </form>
