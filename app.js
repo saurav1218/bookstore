@@ -1,7 +1,7 @@
 const User = require('./model/user.js')
 const express = require('express')
 const app = express()
-const port = process.env.PORT || 6000
+const port = process.env.PORT || 4000
 
  const mongoose = require('mongoose');
  const cors = require('cors'); //cross origin resource
