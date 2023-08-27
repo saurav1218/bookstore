@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fbd496fc.css",
+    "main.js": "/static/js/main.6ff4267b.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/signupbooks.jpg": "/static/media/signupbooks.4c5baea7ded83bc4f596.jpg",
+    "static/media/add_books.avif": "/static/media/add_books.d698b1a03971757878d5.avif",
+    "index.html": "/index.html",
+    "main.fbd496fc.css.map": "/static/css/main.fbd496fc.css.map",
+    "main.6ff4267b.js.map": "/static/js/main.6ff4267b.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fbd496fc.css",
+    "static/js/main.6ff4267b.js"
+  ]
+}

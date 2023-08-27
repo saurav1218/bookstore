@@ -28,7 +28,7 @@ let signUp=(e)=>{
 
     }
    if(data.name && data.email && data.password && data.password == data.confirmPassword){
-    axios.post("http://localhost:4000/signup",data).then((res)=>{
+    axios.post("https://bookstore-i3rs.onrender.com/signup",data).then((res)=>{
     
     alert(res.data.message)
     if(res.data.status==200){
